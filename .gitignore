@@ -1,0 +1,13 @@
+# Ignore raw satellite data but keep the directory tracked
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore dataset files
+*.jsonl
+
+# Ignore Python caches and notebook checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
